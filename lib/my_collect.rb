@@ -1,12 +1,12 @@
-def my_collect(collection)
+def my_collect(words)
   if block_given?
 
   i = 0
-  while i < collection.length
+  while i < words.length
   yield(collection[i])
     i += 1
   end
-    collection
+    words
 
   else
   puts "Hey! No block was given!"
