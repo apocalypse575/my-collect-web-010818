@@ -1,18 +1,17 @@
-def my_collect(collection)
+def my_collect(array)
   if block_given?
-
+    
   i = 0
-  while i < collection.length
-  yield(collection[i])
+  while i < array.length
+  yield(array[i])
     i += 1
   end
-    puts collection
-
+    puts array
+    
   else
   "Hey! No block was given!"
   end
 end
-
 
 
 # my_collect returns a new collection of appropriately modified elements, in this case capitalized languages
