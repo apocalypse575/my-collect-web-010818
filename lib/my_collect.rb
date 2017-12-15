@@ -6,7 +6,7 @@ def my_collect(words)
   yield(words[i])
     i += 1
   end
-    words
+    return words
 
   else
   puts "Hey! No block was given!"
