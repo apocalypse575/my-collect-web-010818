@@ -13,8 +13,8 @@ def my_collect(collection)
   end
 end
 
-my_collect(collection) do |lang|
-  lang.upcase
+my_collect(collection) do |uppercase|
+  collection.upcase
 end
 
 # my_collect returns a new collection of appropriately modified elements, in this case capitalized languages
