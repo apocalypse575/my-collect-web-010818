@@ -6,7 +6,7 @@ def my_collect(collection)
   yield(collection[i])
     i += 1
   end
-    return collection
+    collection
 
   else
   puts "Hey! No block was given!"
