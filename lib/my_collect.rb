@@ -6,7 +6,7 @@ def my_collect(collection)
   yield(collection[i])
     i += 1
   end
-    collection
+    collection.upcase
 
   else
   puts "Hey! No block was given!"
